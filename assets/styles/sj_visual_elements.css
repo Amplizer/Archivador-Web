@@ -1,0 +1,133 @@
+.sj_visual_elements th, .sj_visual_elements td{
+	/*padding: .75em;*/
+	table-layout: fixed;
+	padding: 0px;
+	border: 0px !important;
+}
+
+.sj_visual_elements{
+	table-layout: fixed;
+	min-width: 350px !important;
+}
+
+.js_visual_elements_default_element{
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+ .sj_visual_elements td{
+	border: 1px solid #E0F2F7;
+	overflow-x: hidden;
+	overflow-y: hidden;
+ }
+
+.js_visual_elements_default_element{
+	padding: .75em;
+	border: 0px solid rgba( 0, 0, 0, 0);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	color: rgba( 0, 0, 0, 0 );
+	height: 100px;
+	overflow-y: hidden;
+}
+
+.js_visual_elements_default_element:hover{
+	cursor: pointer;
+	border: 0px solid #E0F2F7;
+	background-image: none !important;
+	color: rgba( 0, 0, 0, 1 );
+}
+
+.js_visual_elements_default_element_parent{
+	position: relative;
+}
+
+.js_visual_elements_default_element_delete{
+	position: absolute;
+	top: 4px;
+	left: calc( 100% - 39px);
+	z-index: 999;
+}
+
+.sj_delete_element{
+	/*width: 15px !important;
+	height: 15px !important;*/
+}
+
+.sj_delete_element:hover{
+	cursor: pointer;
+	background-color: #BDBDBD;
+	border: 0px solid #BDBDBD;
+}
+
+
+.js_container_table{
+	overflow-x: scroll;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.sj_delete_element {
+	margin-right: 10px;
+	border: 0px solid #e9ecef;
+	padding: 5px;
+	border-radius: 15px;
+	background-color: #e9ecef;
+	color: #343a40;
+}
+
+.sj-paginator{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: .375rem .75rem;
+	text-align: center;
+	min-width: 75px;
+}
+.sj-paginator-left{
+	margin: 0px !Important;
+	float:left;
+	/*margin-left: 20px;*/
+}
+.sj-paginator-right{
+	margin: 0px !Important;
+	float:right;
+	/*margin-right: 20px;*/
+}
+
+.sj-paginator-counter{
+	display: inline-block;
+}
+
+.sj_search_style{
+	margin: 0.375em;
+	margin-bottom: 10px;
+	padding: 0.275em;
+	border: 1px solid #BBB;
+	width: calc( 100% - ( 0.375em + 0.275em ) );
+	border-radius: 4px 4px;
+}
+
+.elementos_previos_seleccion{
+	cursor: pointer;
+}
+
+.sj-paginator-mobile{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: .375rem .75rem;
+	text-align: center;
+	min-width: 30px;
+}
+.sj-paginator-left-mobile{
+	float:left;
+	margin-left: 0px !important;
+}
+.sj-paginator-right-mobile{
+	margin-right: 0px !important;
+}
+
+.sj-paginator-counter-mobile{
+	font-size: 13px !important;
+}
